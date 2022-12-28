@@ -40,14 +40,11 @@
   background-color: rgb(8, 199, 249);
 }
 .home-text {
-  align-self: center;
-  font-family: Impact;
+  font-style: italic;
+  font-family: Arial;
+  font-weight: 700;
 }
-.home-text01 {
-  color: var(--dl-color-gray-black);
-  text-transform: uppercase;
-}
-.home-link4 {
+.home-button {
   text-decoration: none;
   background-color: #09d0ef;
 }
@@ -98,13 +95,11 @@
   color: #fff;
   background-color: #595959;
 }
-.home-text06 {
+.home-text05 {
   width: 100%;
   cursor: pointer;
   display: flex;
   font-size: 14px;
-  font-style: normal;
-  font-weight: 500;
 }
 .home-dropdown1 {
   cursor: pointer;
@@ -130,13 +125,11 @@
   color: #fff;
   background-color: #595959;
 }
-.home-text07 {
+.home-text06 {
   width: 100%;
   cursor: pointer;
   display: flex;
   font-size: 14px;
-  font-style: normal;
-  font-weight: 500;
 }
 .home-dropdown2 {
   cursor: pointer;
@@ -162,13 +155,11 @@
   color: #fff;
   background-color: #595959;
 }
-.home-text08 {
+.home-text07 {
   width: 100%;
   cursor: pointer;
   display: flex;
   font-size: 14px;
-  font-style: normal;
-  font-weight: 500;
 }
 .home-link5 {
   width: 191px;
@@ -182,7 +173,11 @@
   text-decoration: none;
   background-color: #03d7f7;
 }
-.home-text10 {
+.home-text08 {
+  font-family: Arial;
+}
+.home-text09 {
   color: var(--dl-color-gray-black);
-  font-family: Merriweather;
+  font-style: italic;
+  font-weight: 700;
 }
