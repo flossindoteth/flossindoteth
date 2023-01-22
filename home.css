@@ -223,7 +223,7 @@
     height: 75px;
   }
   .home-image03 {
-    margin-top: 0px;
+    margin-top: var(--dl-space-space-unit);
   }
   .home-image04 {
     width: var(--dl-size-size-xxlarge);
