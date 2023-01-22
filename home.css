@@ -199,6 +199,7 @@
 }
 @media(max-width: 479px) {
   .home-image {
+    width: var(--dl-size-size-xxlarge);
     margin-top: var(--dl-space-space-fiveunits);
     margin-bottom: var(--dl-space-space-fiveunits);
   }
