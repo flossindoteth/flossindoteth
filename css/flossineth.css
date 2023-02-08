@@ -342,12 +342,12 @@
   background-color: #43464d;
 }
 
-.hero-image-2 {
+.hero-logo-image {
   width: 100%;
   margin-top: 50px;
 }
 
-.team-circles {
+.spaces-circles {
   position: relative;
   padding: 80px 30px;
   border: 1px solid #1a4e9b;
@@ -383,7 +383,7 @@
   grid-template-rows: auto auto;
 }
 
-.team-card {
+.spaces-card {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -402,7 +402,7 @@
   text-align: center;
 }
 
-.team-member-image {
+.micrphone-image {
   display: block;
   overflow: hidden;
   width: 270px;
@@ -413,7 +413,7 @@
   object-fit: cover;
 }
 
-.team-member-name {
+.space-name {
   margin-bottom: 6px;
   font-family: Hero, sans-serif;
   color: #000;
@@ -659,7 +659,7 @@
   color: #3a4554;
 }
 
-.team-circles-2 {
+.socials-circles {
   position: relative;
   padding: 80px 30px;
   border-style: solid;
@@ -713,7 +713,7 @@
   text-align: center;
 }
 
-.team-member-image-2 {
+.ens-vision-image {
   width: 270px;
   height: 270px;
   margin-bottom: 24px;
@@ -754,7 +754,7 @@
   font-weight: 700;
 }
 
-.hero-subscribe-left {
+.thread-background {
   position: relative;
   padding: 80px 30px;
   border-style: solid;
@@ -762,7 +762,7 @@
   border-color: #000;
   border-radius: 20px;
   background-color: #bb1a34;
-  background-image: url('../images/THREAD-YELLOW-BACKGROUND.png');
+  background-image: url('../images/THREAD-BACKGROUND_1.png');
   background-position: 50% 50%;
   background-size: auto;
 }
@@ -946,14 +946,14 @@
   text-align: center;
 }
 
-.image-7 {
+.pistol-gif {
   border: 5px solid #000;
   border-radius: 20px;
   font-family: Hero, sans-serif;
   color: #000;
 }
 
-.image-8 {
+.discord-image {
   display: block;
   border-radius: 20px;
 }
@@ -974,18 +974,26 @@
   color: #000;
 }
 
+.tweet-1-image {
+  border-radius: 20px;
+}
+
+.tweet-2-image {
+  border-radius: 20px;
+}
+
 @media screen and (min-width: 1440px) {
-  .team-member-image {
+  .micrphone-image {
     width: 270px;
     height: 270px;
     max-height: none;
   }
 
-  .team-member-name {
+  .space-name {
     text-transform: uppercase;
   }
 
-  .team-member-image-2 {
+  .ens-vision-image {
     width: 270px;
     height: 270px;
     max-height: none;
@@ -993,6 +1001,12 @@
 
   .footer-copyright-2 {
     font-size: 20px;
+  }
+
+  .thread-background {
+    background-image: url('../images/THREAD-BACKGROUND_1.png');
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
   }
 
   .hero-wrapper {
@@ -1005,7 +1019,7 @@
     font-family: Hero, sans-serif;
   }
 
-  .image-7 {
+  .pistol-gif {
     display: block;
     border: 5px solid #000;
   }
@@ -1025,11 +1039,11 @@
     color: #000;
   }
 
-  .image-9 {
+  .tweet-1-image {
     border-radius: 20px;
   }
 
-  .image-10 {
+  .tweet-2-image {
     border-radius: 20px;
   }
 }
@@ -1061,7 +1075,7 @@
     grid-column-gap: 40px;
   }
 
-  .team-member-image {
+  .micrphone-image {
     width: 190px;
     height: 190px;
   }
@@ -1108,7 +1122,7 @@
     margin-top: 40px;
   }
 
-  .team-circles-2 {
+  .socials-circles {
     background-color: #bb1a34;
   }
 
@@ -1116,7 +1130,7 @@
     grid-column-gap: 40px;
   }
 
-  .team-member-image-2 {
+  .ens-vision-image {
     width: 190px;
     height: 190px;
   }
@@ -1142,7 +1156,7 @@
     font-weight: 700;
   }
 
-  .hero-subscribe-left {
+  .thread-background {
     padding-top: 20px;
     padding-bottom: 20px;
     background-image: url('../images/THREAD-BACKGROUND.png'), url('../images/emoji-fdcb58-1290x8601.75x-2.png');
@@ -1185,7 +1199,7 @@
     padding-bottom: 0px;
   }
 
-  .image-8 {
+  .discord-image {
     border-radius: 20px;
   }
 }
@@ -1212,7 +1226,7 @@
     border-radius: 10px;
   }
 
-  .team-circles {
+  .spaces-circles {
     padding: 60px 15px;
     border-radius: 10px;
   }
@@ -1315,7 +1329,7 @@
     line-height: 20px;
   }
 
-  .team-circles-2 {
+  .socials-circles {
     padding: 60px 15px;
     border-radius: 10px;
   }
@@ -1343,7 +1357,7 @@
     line-height: 20px;
   }
 
-  .hero-subscribe-left {
+  .thread-background {
     padding: 0px 15px 141px;
     border-radius: 10px;
   }
@@ -1371,6 +1385,10 @@
     border: 1px none #000;
     color: #000;
     text-decoration: none;
+  }
+
+  .tweet-1-image {
+    margin-top: 140px;
   }
 }
 
@@ -1541,7 +1559,7 @@
     align-items: center;
   }
 
-  .team-circles-2 {
+  .socials-circles {
     background-color: #bb1a34;
   }
 
@@ -1552,6 +1570,10 @@
   .team-grid-2 {
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
+  }
+
+  .thread-background {
+    padding-top: 32px;
   }
 
   .container-8 {
@@ -1602,8 +1624,12 @@
     margin-bottom: 60px;
   }
 
-  .image-8 {
+  .discord-image {
     margin-top: 63px;
+  }
+
+  .tweet-1-image {
+    margin-top: 0px;
   }
 }
 
