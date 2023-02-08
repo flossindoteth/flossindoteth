@@ -1071,6 +1071,10 @@
     margin-top: -114px;
   }
 
+  .hero-logo-image {
+    margin-top: 100px;
+  }
+
   .team-grid {
     grid-column-gap: 40px;
   }
@@ -1224,6 +1228,10 @@
   .hero-stack-2 {
     padding: 60px 15px;
     border-radius: 10px;
+  }
+
+  .hero-logo-image {
+    margin-top: 100px;
   }
 
   .spaces-circles {
@@ -1494,6 +1502,10 @@
 
   .container-6 {
     max-width: none;
+  }
+
+  .hero-logo-image {
+    margin-top: 100px;
   }
 
   .centered-heading {
